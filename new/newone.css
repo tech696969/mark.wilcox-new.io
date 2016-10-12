@@ -1,0 +1,169 @@
+                                                        /*colors for my websites (not exact colors but my choices)
+http://www.w3schools.com/colors/colors_picker.asp
+white          = #ffffff;
+lighter yellow = #ffff66; @70%
+yellow         = #ffff00; @50%
+darker yellow  = #999900; @30%
+lighter orange = #ffc966; @70%
+orange         = #ffa500; @50%
+darker orange  = #996300; @30%
+lighter red    = #ff6666; @70%
+red            = #ff0000; @50%
+darker red     = #990000; @30%
+lighter green  = #33ff33; #60%
+green          = #008000; @50%
+darker green   = #004d00; @15%
+lighter blue   = #6666ff; @70%
+blue           = #0000ff; @50%
+darker blue    = #000099; @30%
+lighter purple = #ff1aff; @55%
+purple         = #800080; @25%
+darker purple  = #4d004d; @15%
+lighter brown  = #d2a679; @65%
+brown          = #996633; @40%
+darker brown   = #734d26; @30%
+lighter gray   = #b3b3b3; @70%
+gray           = #808080; @50%
+darker gray    = #4d4d4d; @30%
+black          = #000000;
+
+pixel to em conversion-----  http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+*/
+                                                        
+#one {
+    background-color: #33ff33;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    font-variant: normal;
+    display: block;
+    border: 1px solid #33ff33;
+    opacity: 0.9px;
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) { 
+    #one {
+        background-color: #4d4d4d;
+        color: #ffffff;
+        }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 767px) { 
+    #one {
+        background-color: #996633;
+        color: #000000;
+        }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 577px) { 
+    #one {
+        background-color: #ffc966;
+        color: #000000;
+        }
+}
+                                                        
+#two {
+    background-color: #ffff66;
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    font-variant: normal;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) { 
+    #two {
+        background-color: #996633;
+        color: #000000;
+        }
+
+}
+
+@media only screen and (min-width: 578px) and (max-width: 767px) { 
+    #two {
+        background-color: #4d004d;
+        color: #ffffff;
+        }
+
+}
+
+@media only screen and (min-width: 428px) and (max-width: 577px) { 
+    #two {
+        background-color: #4d4d4d;
+        color: #ffffff;
+        }
+
+}
+                                                        
+#three {
+background-color: #000099;
+color: #ffffff;
+font-weight: normal;
+font-style: normal;
+font-family: sans-serif;
+font-variant: normal;
+margin: 0;
+padding: 0;
+display: block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) { 
+    #three {
+        background-color: #4d4d4d;
+        color: #ffffff;
+        }
+
+}
+
+@media only screen and (min-width: 578px) and (max-width: 767px) { 
+    #three {
+        background-color: #996633;
+        color: #000000;
+        }
+
+}
+
+@media only screen and (min-width: 428px) and (max-width: 577px) { 
+    #three {
+        background-color: #ffc966;
+        color: #000000;
+        }
+
+}
+
+#me {
+    background-color: #999900;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#nav1 {
+    display: block;
+    border: 1px solid clear;
+    line-height: 150px;
+    height: 200px;
+}
+
+.same {
+    text-align: center;
+    align-content: center;
+    display: block;
+    border: 1px solid clear;
+    background-color: #734d26;
+    outline-color: #004d00;
+    overflow: hidden;
+}
+
+#para1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+#top {
+    text-align: center;
+}
